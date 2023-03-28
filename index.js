@@ -1,0 +1,20 @@
+const data = [
+    'Car',
+    'Bus',
+    'Helicopter',
+    'Train',
+];
+
+/////////////////////////////////////////////////////
+
+const removedArray = data.splice(1,3)
+
+console.log(removedArray);
+
+/////////////////////////////////////////////////////////
+
+const removedArray1 = data.slice(0,2)
+
+console.log(removedArray1);
+
+/////////////////////////////////////////////////////////
